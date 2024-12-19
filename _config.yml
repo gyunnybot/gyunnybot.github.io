@@ -17,11 +17,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "ko-KR"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "gyunnybot"
+title                    : "gyunnybot's Tech blog"
 title_separator          : "|"
-subtitle                 : # "advance"
+subtitle                 : #
 name                     : "gyunnybot"
-description              : "Backend Developer"
+description              : "gyunnybot's blog"
 url                      : "https://gyunnybot.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -113,11 +113,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "gyunnybot"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "Backend Developer"
+  location         : "Seoul, South Korea"
+  email            : "idjkda4034@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
