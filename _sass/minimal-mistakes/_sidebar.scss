@@ -91,9 +91,9 @@
       float: inline-end;
 
       .toc {
-        position: sticky;
-        top: 20px;
-        z-index: 10;
+        position: relative;
+        top: auto;
+        z-index: auto;
 
         .toc__menu {
           overflow-y: auto;
