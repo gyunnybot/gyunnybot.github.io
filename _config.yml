@@ -333,6 +333,9 @@ defaults:
     values:
       layout: single
       author_profile: true
-      sidebar: true
+      sidebar:
+          nav: "counts"
+      sidebar_main:
+          nav: "counts"
 
 date_format: "%Y-%m-%d"
