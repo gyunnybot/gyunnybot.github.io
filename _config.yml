@@ -325,7 +325,10 @@ defaults:
       share: true
       related: true
       show_date: true
-      sidebar: true
+      sidebar:
+          nav: "counts"
+      sidebar_main:
+          nav: "counts"
   # _pages
   - scope:
       path: "_pages"
