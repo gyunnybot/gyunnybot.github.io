@@ -7,18 +7,8 @@ main:
   - title: "Search"
     url: /search/
 
-docs:
-  - title: "대목차"
-    children:
-      - title: "Category"
-        url: /categories/
-      - tag: "Tag"
-        url: /tags/
-
 counts:
-  - title: "Category List"
-    use: true
-  - title: "Tag List"
+  - title: "카테고리"
     use: true
 
   # - title: "About"
