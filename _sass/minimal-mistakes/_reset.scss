@@ -8,7 +8,7 @@ html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
   background-color: $background-color;
-  font-size: 16x; //$doc-font-size;
+  font-size: 16.5x; //$doc-font-size;
 
   @include breakpoint($medium) {
     font-size: 15.5px; //$doc-font-size-medium;
@@ -25,6 +25,30 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
+
+//여기서부터 추가
+/* 본문 글자 크기 유지 */
+body {
+  font-size: 16px; /* 본문 글자 크기 유지 */
+}
+
+/* 제목 및 나머지 텍스트 크기 키우기 */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1.5rem; /* 제목의 글자 크기를 키우기 */
+}
+
+p {
+  font-size: 1rem; /* 본문 외의 텍스트 크기 키우기 */
+}
+
+.sidebar, .menu {
+  font-size: 1.1rem; /* 사이드바나 메뉴 글자 크기 키우기 */
+}
+
+a {
+  font-size: 1.1rem; /* 링크 글자 크기 키우기 */
+}
+//여기까지 추가된 부분
 
 /* Remove margin */
 
