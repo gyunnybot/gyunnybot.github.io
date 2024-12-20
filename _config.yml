@@ -34,7 +34,8 @@ enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
-  provider               : giscus # "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  active: ‘giscus’
+  provider               : "giscus" # "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : #gyunnybot
     # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
@@ -48,7 +49,6 @@ comments:
   utterances:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
-  # active: ‘giscus’
   giscus:
     repo                 : "gyunnybot/gyunnybot.github.io"
     repo_id              : "R_kgDONfrJbA" # Shown during giscus setup at https://giscus.app
