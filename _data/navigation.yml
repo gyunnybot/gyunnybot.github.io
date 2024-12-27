@@ -10,3 +10,15 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+sidebar-category:
+  - title: PROGRAMMING
+    children:
+      - title: "Operating System"
+        url: os/
+        category: "os"
+  - title: TODAY
+    children:
+      - title: "Blog"
+        url: blog/
+        category: "blog"
