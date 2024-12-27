@@ -284,6 +284,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+      sidebar:                  
+        nav: "sidebar-category"
   # _recipes
   - scope:
       path: ""
@@ -308,3 +310,5 @@ defaults:
       layout: single
       author_profile: false
       share: true
+  # _layouts
+  
