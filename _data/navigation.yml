@@ -5,13 +5,11 @@ main:
  - title: "Tag"
    url: /tags/
  - title: "Search"
-   url: /categories/
- - title: "Search"
    url: /search/
 sidebar-category:
   - title: PROGRAMMING
     children:
-      - title: "Operatingsystem"
+      - title: "Operating System"
         url: "/operatingsystem"
   - title: BLOG
     children:
