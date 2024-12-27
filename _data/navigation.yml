@@ -1,7 +1,22 @@
 # main links
-main:
+main: 
  - title: "Category"
    url: /categories/
+ - title: "Tag"
+   url: /tags/
+ - title: "Search"
+   url: /categories/
+ - title: "Search"
+   url: /search/
+sidebar-category:
+  - title: PROGRAMMING
+    children:
+      - title: "Operatingsystem"
+        url: "/operatingsystem"
+  - title: BLOG
+    children:
+      - title: "Blog"
+        url: "/blog"
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"

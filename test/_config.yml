@@ -275,6 +275,8 @@ defaults:
       read_time: true
       share: true
       related: true
+      sidebar:                  
+        nav: "sidebar-category"
   # _pages
   - scope:
       path: "_pages"
