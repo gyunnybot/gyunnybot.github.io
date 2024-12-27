@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "Today Blog"
 layout: archive
 permalink: /_pages/categories/Blog/
 author_profile: true
