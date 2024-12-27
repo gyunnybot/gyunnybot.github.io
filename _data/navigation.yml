@@ -11,10 +11,12 @@ sidebar-category:
     children:
       - title: "Operating System"
         url: /operatingsystem/
+        category: "Operatingsystem"
   - title: BLOG
     children:
       - title: "Blog"
         url: /blog/
+        category: "Blog"
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
