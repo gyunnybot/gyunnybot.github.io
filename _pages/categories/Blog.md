@@ -1,11 +1,10 @@
 ---
-title: "Today's Blog"
+title: "Blog"
 layout: archive
-permalink: /_pages/categories/Blog/
+permalink: categories/blog
 author_profile: true
-
-sidebar:
-  nav: "sidebar-category"
+sidebar_main: true
 ---
 
-{% assign posts = site.categories.Blog %} {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
+{% assign posts = site.categories.blog %}
+  {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

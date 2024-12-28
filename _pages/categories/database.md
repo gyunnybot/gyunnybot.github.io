@@ -1,9 +1,10 @@
 ---
-title: "Operating System"
+title: "Database"
 layout: archive
-permalink: categories/operatingsystem
+permalink: categories/database
 author_profile: true
 sidebar_main: true
 ---
-{% assign posts = site.categories.operatingsystem %}
+
+{% assign posts = site.categories.database %}
   {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

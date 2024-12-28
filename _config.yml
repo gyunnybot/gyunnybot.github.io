@@ -319,8 +319,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      sidebar:
-        nav: "sidebar-category"
+      sidebar main: true
       read_time: true
       comments: true # true
       share: true
@@ -333,22 +332,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      sidebar:
-        nav: "sidebar-category"
-      read_time: true
-      comments: false # true
-      share: true
-      related: true
-      show_date: true
-  # _layouts
-  - scope:
-      path: "_layouts"
-      type: layouts
-    values:
-      layout: default
-      author_profile: true
-      sidebar:
-        nav: "sidebar-category"
+      sidebar_main: true
       read_time: true
       comments: false # true
       share: true
