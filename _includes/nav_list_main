@@ -6,23 +6,30 @@
         <li>
           <span class="nav__sub-title">PROGRAMMING</span>
               <ul>
-                  {% for category in site.categories%}
-                      {% if category[0] == "operatingsystem" %}
-                          <li><a href="/categories/operatingsystem" class="">Operating System ({{ category[1].size }})</a></li>
-                      {% endif %}
-                  {% endfor %}
-              </ul>
-              <ul>
-                  {% for category in site.categories %}
-                      {% if category[0] == "database" %}
-                          <li><a href="/categories/database" class="">Database ({{ category[1].size }})</a></li>
-                      {% endif %}
-                  {% endfor %}
+                {% for category in site.categories %}
+                    {% if category[0] == "database" %}
+                        <li><a href="/categories/database" class="">Database ({{ category[1].size }})</a></li>
+                    {% endif %}
+                {% endfor %}
               </ul>
               <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "java" %}
                         <li><a href="/categories/java" class="">Java ({{ category[1].size }})</a></li>
+                    {% endif %}
+                {% endfor %}
+              </ul>
+              <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "network" %}
+                        <li><a href="/categories/network" class="">Java ({{ category[1].size }})</a></li>
+                    {% endif %}
+                {% endfor %}
+              </ul>
+              <ul>
+                {% for category in site.categories%}
+                    {% if category[0] == "operatingsystem" %}
+                        <li><a href="/categories/operatingsystem" class="">Operating System ({{ category[1].size }})</a></li>
                     {% endif %}
                 {% endfor %}
               </ul>
