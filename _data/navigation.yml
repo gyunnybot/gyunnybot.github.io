@@ -21,6 +21,9 @@ sidebar-category:
       - title: "Operating System"
         url: /operatingsystem/
         category: "operatingsystem"
+      - title: "Spring"
+        url: /spring/
+        category: "spring"
   - title: BLOG
     children:
       - title: "Blog"
