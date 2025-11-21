@@ -145,6 +145,11 @@ To install:
 
     - README.md (this file, near the end)
     - LICENSE
+
+  카테고리 추가 시 확인해야 할 체크 리스트 :
+    - _data\navigation.yml에서 해당 경로 추가
+    - _includes\nav_list_main에서 해당 경로 추가
+    - _pages\categories\XXX.md 생성
 -->
 
 **Looking for an example?** Use the [Minimal Mistakes remote theme starter](https://github.com/mmistakes/mm-github-pages-starter/generate) for the quickest method of getting a GitHub Pages hosted site up and running. Generate a new repository from the starter, replace sample content with your own, and configure as needed.
@@ -287,3 +292,4 @@ Lunr is distributed under the terms of the [MIT License](http://opensource.org/l
 Minimal Mistakes incorporates [clipboard.js](https://clipboardjs.com/),
 Copyright (c) 2021 Zeno Rocha.
 Clipboard.js is distributed under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
