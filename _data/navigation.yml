@@ -5,11 +5,14 @@ main:
  - title: "Search"
    url: /search/
 sidebar-category:
-  - title: PROGRAMMING
+  - title: DEV
     children:
       - title: "Database"
         url: /database/
         category: "database"
+      - title: "Git"
+        url: /git/
+        category: "git"
       - title: "Java"
         url: /java/
         category: "java"

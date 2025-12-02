@@ -4,11 +4,18 @@
     <label for="ac-toc">메뉴 열기</label>
     <ul class="nav__items" id="category_tag_menu">
         <li>
-          <span class="nav__sub-title">PROGRAMMING</span>
+          <span class="nav__sub-title">DEV</span>
               <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "database" %}
                         <li><a href="/categories/database" class="">Database ({{ category[1].size }})</a></li>
+                    {% endif %}
+                {% endfor %}
+              </ul>
+              <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "git" %}
+                        <li><a href="/categories/git" class="">Git ({{ category[1].size }})</a></li>
                     {% endif %}
                 {% endfor %}
               </ul>
