@@ -1,0 +1,12 @@
+/* author avatar: bigger + centered in sidebar */
+.sidebar .author__avatar {
+  display: block;         /* table-cell 성격 제거 */
+}
+
+.sidebar .author__avatar img {
+  display: inline-block;
+  width: 130px;           /* 원하는 크기로 */
+  max-width: none;        /* 기존 max-width:110px 무시 */
+  height: auto;
+  border-radius: 50%;
+}
