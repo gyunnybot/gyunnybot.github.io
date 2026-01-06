@@ -7,6 +7,9 @@ main:
 sidebar-category:
   - title: DEV
     children:
+      - title: "Books"
+        url: /books/
+        category: "books"
       - title: "Database"
         url: /database/
         category: "database"

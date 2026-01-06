@@ -7,6 +7,13 @@
           <span class="nav__sub-title">DEV</span>
               <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "books" %}
+                        <li><a href="/categories/books" class="">Books ({{ category[1].size }})</a></li>
+                    {% endif %}
+                {% endfor %}
+              </ul>
+              <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "database" %}
                         <li><a href="/categories/database" class="">Database ({{ category[1].size }})</a></li>
                     {% endif %}
