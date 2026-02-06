@@ -7,13 +7,6 @@
           <span class="nav__sub-title">DEV</span>
               <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "books" %}
-                        <li><a href="/categories/books" class="">Books ({{ category[1].size }})</a></li>
-                    {% endif %}
-                {% endfor %}
-              </ul>
-              <ul>
-                {% for category in site.categories %}
                     {% if category[0] == "database" %}
                         <li><a href="/categories/database" class="">Database ({{ category[1].size }})</a></li>
                     {% endif %}
@@ -42,8 +35,15 @@
               </ul>
               <ul>
                 {% for category in site.categories%}
-                    {% if category[0] == "operatingsystem" %}
-                        <li><a href="/categories/operatingsystem" class="">Operating System ({{ category[1].size }})</a></li>
+                    {% if category[0] == "oop" %}
+                        <li><a href="/categories/oop" class="">OOP ({{ category[1].size }})</a></li>
+                    {% endif %}
+                {% endfor %}
+              </ul>
+              <ul>
+                {% for category in site.categories%}
+                    {% if category[0] == "os" %}
+                        <li><a href="/categories/os" class="">Operating System ({{ category[1].size }})</a></li>
                     {% endif %}
                 {% endfor %}
               </ul>
