@@ -1,19 +1,15 @@
-<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-  <g transform="translate(0, 38)">
-    <rect x="8" y="0" width="48" height="14" rx="3" fill="#7E57C2"/>
-    <rect x="12" y="2" width="42" height="10" rx="1.5" fill="#E1D5F1"/>
-    <path d="M11 2H15V12H11C11 12 10 12 10 11V3C10 2 11 2 11 2Z" fill="#6B49A3"/>
-  </g>
-
-  <g transform="translate(0, 22)">
-    <rect x="8" y="0" width="48" height="14" rx="3" fill="#F5A623"/>
-    <rect x="12" y="2" width="42" height="10" rx="1.5" fill="#FCE7C4"/>
-    <path d="M11 2H15V12H11C11 12 10 12 10 11V3C10 2 11 2 11 2Z" fill="#E0931A"/>
-  </g>
-
-  <g transform="translate(0, 6)">
-    <rect x="8" y="0" width="48" height="14" rx="3" fill="#4A90E2"/>
-    <rect x="12" y="2" width="42" height="10" rx="1.5" fill="#D8E2F3"/>
-    <path d="M11 2H15V12H11C11 12 10 12 10 11V3C10 2 11 2 11 2Z" fill="#4178BE"/>
-  </g>
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="white"/>
+  
+  <text 
+    x="50%" 
+    y="50%" 
+    dominant-baseline="central" 
+    text-anchor="middle" 
+    font-family="'Times New Roman', Times, serif" 
+    font-weight="bold" 
+    font-size="250" 
+    fill="black">
+    K
+  </text>
 </svg>
