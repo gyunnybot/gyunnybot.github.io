@@ -7,3 +7,14 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* 목록(Recent Posts)에 있는 제목 링크 색상 변경 */
+.archive__item-title a {
+  color: #000000 !important; /* 검은색 */
+}
+
+/* 마우스 올렸을 때도 검은색 유지 (원치 않으면 이 부분은 지우세요) */
+.archive__item-title a:hover {
+  color: #000000 !important; 
+  text-decoration: underline; /* 마우스 올리면 밑줄 생김 */
+}
