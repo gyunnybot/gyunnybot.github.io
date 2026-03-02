@@ -1,10 +1,10 @@
 ---
-title: "Network"
+title: "MySQL 8.0"
 layout: archive
-permalink: categories/network
+permalink: categories/mysql
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.network %}
+{% assign posts = site.categories.java %}
   {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

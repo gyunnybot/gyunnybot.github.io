@@ -7,27 +7,24 @@ main:
 sidebar-category:
   - title: DEV
     children:
-      - title: "Database"
-        url: /database/
-        category: "database"
-      - title: "Git"
-        url: /git/
-        category: "git"
       - title: "Java"
         url: /java/
         category: "java"
-      - title: "Network"
-        url: /network/
-        category: "network"
+      - title: "JPA"
+        url: /jpa/
+        category: "jpa"
+      - title: "MySQL 8.0"
+        url: /mysql/
+        category: "mysql"
       - title: "OOP"
         url: /oop/
         category: "oop"
       - title: "Operating System"
         url: /os/
         category: "os"
-      - title: "Spring"
-        url: /spring/
-        category: "spring"
+      - title: "SQL Tuning"
+        url: /sqltuning/
+        category: "sqltuning"
   - title: BLOG
     children:
       - title: "Blog"
